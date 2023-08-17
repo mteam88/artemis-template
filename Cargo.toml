@@ -1,0 +1,11 @@
+
+[package]
+name = "example_strat"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+ethers = "2"
+async-trait = "0.1.64"
+artemis-core = { git = "https://github.com/paradigmxyz/artemis" }
